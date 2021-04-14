@@ -16,6 +16,18 @@
 g++ --version
 ```
 
+4. Compile the source code
+
+```
+C:\Users\12818\workspace\cplusplus>g++ -c helloWorld.cpp
+g++ helloWorld.cpp -o helloWorld.exe
+```
+5. Running the source code
+
+```
+C:\Users\12818\workspace\cplusplus>helloWorld
+```
+
 ```launch.json
 ,
         
