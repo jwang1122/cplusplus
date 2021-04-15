@@ -48,5 +48,133 @@ short Year;
 short int Year;
 unsigned NextYear; 
 unsigned int NextYear;
+```
+
+### Character and string literals
+```c++
+char c = 'z';
+char p = 'p';
+string hw = "Hello world";
+string hdyd = "How do you do?";
+```
 
 ```
+Escape squence:
+
+\n newline 
+\r carriage return 
+\t tab 
+\v vertical tab 
+\b backspace 
+\f form feed (page feed)
+\a alert (beep) 
+\' single quote (') 
+\" double quote (") 
+\? question mark (?) 
+\\ backslash (\)
+```
+
+### Defined constants (#define) 
+
+```cpp
+#define PI 3.14159
+#define NEWLINE '\n'
+```
+
+[Built in math functions](https://www.cplusplus.com/reference/cmath/)
+
+### Declared constants (const) 
+
+Declear a constant by **const** key word.
+
+```cpp
+const int pathwidth = 100; 
+const char tabulator = '\t';
+```
+
+## Operators
+Source file: ~operator/operator.cpp
+### Assignment Operator (=)
+
+```cpp
+float radius = 3.0;
+int a = 5;
+int b = a;
+int c, d, e, f, g;
+a = b = c = 5;
+```
+
+### Arithmetic operators ( +, -, *, /, % ) 
+
+```
++ addition 
+- subtraction 
+* multiplication
+/ division 
+% modulo 
+```
+
+### Compound assignment (+=, -=, *=, /=, %=, >>=, <<=, &=, 
+^=, |=)
+
+expression         |is equivalent to
+|---               |---            | 
+value += increase; |value = value + increase;
+a -= 5;            |a = a - 5;
+a /= b;            |a = a / b;
+price *= units + 1;|price = price * (units + 1);
+
+### Increase and decrease operators(++, --)
+
+```cpp
+int a = 3;
+a++;
+cout << a << endl
+```
+
+### Relational and equality operators ( ==, !=, >, <, >=, <= )
+
+Operator | Description
+|---     |---          |
+|== | Equal to| 
+|!= | Not equal to| 
+|>  |Greater than| 
+|<  |Less than 
+|>= |Greater than or equal to
+|<= |Less than or equal to 
+
+### Logical operators ( !, &&, || ) 
+
+&& Operator (and (与操作）operator)
+
+a |b |a && b
+|--- | --- |---|
+true |true |true 
+true |false|false 
+false|true |false 
+false|false|false
+
+|| Operator （or （或操作）operator
+
+a    |b    |a \|\| b
+|--- |---  |---|
+true |true | true 
+true |false|true 
+false|true |true 
+false|false|false 
+
+### Bitwise Operators ( &, |, ^, ~, <<, >> )
+
+## Array
+Source file: ~dataType/array.cpp
+
+### 1 demensional array
+
+### Multidimensional 
+~dataType/array.cpp
+
+```cpp
+int jimmy[3][5];
+```
+![2D Array](2DimensionArray.png)
+
